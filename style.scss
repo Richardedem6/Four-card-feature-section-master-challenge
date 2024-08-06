@@ -147,6 +147,26 @@ header p {
   }
 }
 
+@media (min-width: 1440px) {
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid: row gap 50px;
+  }
+
+  .cards .card:nth-child(3) {
+    position: absolute;
+    margin-left: 29.25rem;
+    margin-top: 18rem;
+  }
+  .cards .drop {
+    transform: translateY(50%);
+  }
+  footer {
+    margin-top: 17rem;
+  }
+}
+
 //start of normal screen sizes ansd widths
 @media (min-width: 567px) {
   .container {

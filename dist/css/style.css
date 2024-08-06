@@ -130,6 +130,24 @@ header p {
     margin-top: 17rem;
   }
 }
+@media (min-width: 1440px) {
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid: row gap 50px;
+  }
+  .cards .card:nth-child(3) {
+    position: absolute;
+    margin-left: 29.25rem;
+    margin-top: 18rem;
+  }
+  .cards .drop {
+    transform: translateY(50%);
+  }
+  footer {
+    margin-top: 17rem;
+  }
+}
 @media (min-width: 567px) {
   .container {
     width: 540px;
